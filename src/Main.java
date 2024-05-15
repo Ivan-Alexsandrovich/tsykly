@@ -39,7 +39,7 @@ public class Main {
             int sum = 0;
             for (int i = 1; i <= 12; i++) {
                 sum += deposit;
-                System.out.println("Месяц  " + i + ", сумма накоплений равна  " + sum + " + рублей».");
+                System.out.println("Месяц  " + i + ", сумма накоплений равна  " + sum + "  рублей.");
 
             }
         }
@@ -48,7 +48,7 @@ public class Main {
         double sum = 0;
         for (int i = 1; i <= 12; i++) {
             sum = sum + (sum * 0.01) + deposit;
-            System.out.println("Месяц  " + i + ", сумма накоплений равна  " + sum + " + рублей».");
+            System.out.println("Месяц  " + i + ", сумма накоплений равна  " + sum + "  рублей».");
 
 
         }
